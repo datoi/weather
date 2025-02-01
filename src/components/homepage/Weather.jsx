@@ -76,11 +76,12 @@ const Weather = () => {
                 <button onClick={searchClick} className="search-button">Search</button> {/* Button next to the input */}
             </div>
 
+            asnjasxnasojxnaso
+
             {loading ? (
                 <p>Pick the city</p>
             ) : weather ? (
                 <div>
-                    <p>Time: {weather.time}</p>
                     <p>Temperature: {weather.temperature}°C</p>
                     <p>Wind Speed: {weather.windspeed} km/h</p>
                     
